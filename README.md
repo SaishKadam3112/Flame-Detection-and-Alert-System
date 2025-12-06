@@ -83,3 +83,6 @@ Power the system (via USB or external supply).
 
 Monitor the buzzer and servo reaction when a flame is detected.
 
+**📷 Screenshots / Output :-**
+
+![IMG_20251125_151821](https://github.com/user-attachments/assets/babc7802-13ca-4942-8441-827a4432ec85)
