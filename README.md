@@ -29,3 +29,7 @@ IR Flame Sensor	D2
 Buzzer	D8
 
 Capacitor	 (Across servo power pins)
+
+**🖼 Circuit Diagram :-**
+
+<img width="994" height="564" alt="Project Circuit Diagram" src="https://github.com/user-attachments/assets/0ec30387-9e65-41cd-b358-46f038d47414" />
