@@ -12,4 +12,7 @@ void setup() {
 
   servoMotor.attach(servoPin);
 
+  servoMotor.write(90); // Start in middle position
+  Serial.begin(9600);
+
 
