@@ -19,5 +19,9 @@ void setup()
   Serial.println("Flame Detection System Started...");
 }
 
+void loop() {
+  int flameStatus = digitalRead(flamePin);
+
+
 
 
