@@ -6,7 +6,8 @@ const int flamePin = 2;     // DO pin of flame sensor
 const int buzzerPin = 8;    // Buzzer pin
 const int servoPin = 9;     // Servo signal pin
 
-void setup() {
+void setup()
+{
   pinMode(flamePin, INPUT);
   pinMode(buzzerPin, OUTPUT);
 
@@ -14,5 +15,9 @@ void setup() {
 
   servoMotor.write(90); // Start in middle position
   Serial.begin(9600);
+
+  Serial.println("Flame Detection System Started...");
+}
+
 
 
