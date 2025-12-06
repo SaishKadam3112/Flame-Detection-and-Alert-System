@@ -33,3 +33,16 @@ Capacitor	 (Across servo power pins)
 **🖼 Circuit Diagram :-**
 
 <img width="994" height="564" alt="Project Circuit Diagram" src="https://github.com/user-attachments/assets/0ec30387-9e65-41cd-b358-46f038d47414" />
+
+**⚙️ Working Principle :-**
+
+The IR flame sensor continuously detects the presence of a flame.
+
+If a flame is detected, the buzzer turns ON to alert nearby people.
+
+Simultaneously, the servo motor rotates toward the flame to indicate direction or trigger a safety mechanism.
+
+The capacitor stabilizes the servo power to ensure smooth movement.
+
+The system continuously monitors for flames and provides instant alerts.
+
