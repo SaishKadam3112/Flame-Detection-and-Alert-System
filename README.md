@@ -46,3 +46,20 @@ The capacitor stabilizes the servo power to ensure smooth movement.
 
 The system continuously monitors for flames and provides instant alerts.
 
+**💻 Code Explanation :-**
+
+**IR Flame Sensor:-**
+Detects fire and sends a HIGH/LOW signal to Arduino.
+
+**Servo Motor:-**
+Rotates to a specific angle when fire is detected. Helps indicate the flame’s direction.
+
+**Buzzer Alert:-**
+Turns ON when a flame is detected for instant warning.
+
+**Capacitor:-**
+Ensures stable voltage to the servo for smooth rotation.
+
+**Arduino Logic:-**
+Continuously reads the flame sensor. If flame detected → buzzer ON + servo rotation. Else → buzzer OFF + servo neutral.
+
