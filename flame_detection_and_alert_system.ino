@@ -26,5 +26,7 @@ void loop() {
 {   // LOW = Flame detected
     Serial.println("🔥 Flame Detected!");
 
+    digitalWrite(buzzerPin, HIGH);  // Turn on buzzer
+
 
 
