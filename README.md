@@ -72,3 +72,14 @@ Buzzer alarm for fire alerts
 Servo movement indicating flame direction
 
 Smooth and reliable operation
+
+**🚀 How to Run :-**
+
+Connect all components according to the pin configuration.
+
+Upload the Arduino code to the Arduino UNO.
+
+Power the system (via USB or external supply).
+
+Monitor the buzzer and servo reaction when a flame is detected.
+
