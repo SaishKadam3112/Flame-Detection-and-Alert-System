@@ -86,3 +86,5 @@ Monitor the buzzer and servo reaction when a flame is detected.
 **📷 Screenshots / Output :-**
 
 ![IMG_20251125_151821](https://github.com/user-attachments/assets/babc7802-13ca-4942-8441-827a4432ec85)
+
+![IMG_20251202_131623](https://github.com/user-attachments/assets/80d49256-7d3f-440b-ae44-2c5692412e33)
