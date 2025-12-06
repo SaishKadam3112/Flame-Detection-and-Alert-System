@@ -35,4 +35,9 @@ void loop() {
       delay(5);
     }
 
+    for (int pos = 180; pos >= 0; pos--) {
+      servoMotor.write(pos);
+      delay(5);
+    }
+
 
