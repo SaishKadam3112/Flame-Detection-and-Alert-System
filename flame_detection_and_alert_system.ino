@@ -10,4 +10,6 @@ void setup() {
   pinMode(flamePin, INPUT);
   pinMode(buzzerPin, OUTPUT);
 
+  servoMotor.attach(servoPin);
+
 
