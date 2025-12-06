@@ -28,5 +28,11 @@ void loop() {
 
     digitalWrite(buzzerPin, HIGH);  // Turn on buzzer
 
+   // Servo Tracking Movement
+    for (int pos = 0; pos <= 180; pos++) 
+    {
+      servoMotor.write(pos);
+      delay(5);
+    }
 
 
