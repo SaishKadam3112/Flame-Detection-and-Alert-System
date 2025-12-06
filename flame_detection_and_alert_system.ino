@@ -22,6 +22,9 @@ void setup()
 void loop() {
   int flameStatus = digitalRead(flamePin);
 
+ if (flameStatus == LOW)
+{   // LOW = Flame detected
+    Serial.println("🔥 Flame Detected!");
 
 
 
