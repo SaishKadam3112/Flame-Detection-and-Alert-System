@@ -19,11 +19,12 @@ void setup()
   Serial.println("Flame Detection System Started...");
 }
 
-void loop() {
+void loop()
+{
   int flameStatus = digitalRead(flamePin);
 
  if (flameStatus == LOW)
-{   // LOW = Flame detected
+  {   // LOW = Flame detected
     Serial.println("🔥 Flame Detected!");
 
     digitalWrite(buzzerPin, HIGH);  // Turn on buzzer
@@ -33,11 +34,23 @@ void loop() {
     {
       servoMotor.write(pos);
       delay(5);
-    }
+     }
 
-    for (int pos = 180; pos >= 0; pos--) {
+    for (int pos = 180; pos >= 0; pos--) 
+    {
       servoMotor.write(pos);
       delay(5);
-    }
+     }
 
+   } 
+ 
+  else
+  {
+    Serial.println("No Flame.");
+    digitalWrite(buzzerPin, LOW);  // Buzzer off
+    servoMotor.write(90);          // Neutral position
+   }
+
+  delay(100);
+ }
 
