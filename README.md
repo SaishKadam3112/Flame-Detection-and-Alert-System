@@ -63,3 +63,12 @@ Ensures stable voltage to the servo for smooth rotation.
 **Arduino Logic:-**
 Continuously reads the flame sensor. If flame detected → buzzer ON + servo rotation. Else → buzzer OFF + servo neutral.
 
+**🧪 Output Features :-**
+
+Real-time flame detection
+
+Buzzer alarm for fire alerts
+
+Servo movement indicating flame direction
+
+Smooth and reliable operation
