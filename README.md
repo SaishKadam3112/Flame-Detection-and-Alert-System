@@ -18,3 +18,14 @@ Capacitor (for servo stabilization)
 
 Connecting wires
 
+**🔧 Pin Configuration :-**
+
+Component	Arduino Pin
+
+Servo Motor	D9
+
+IR Flame Sensor	D2
+
+Buzzer	D8
+
+Capacitor	 (Across servo power pins)
